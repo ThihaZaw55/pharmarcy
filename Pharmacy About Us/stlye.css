@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --black: black;
+  --purple: purple;
+  --light-color: #666;
+  --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+
+*{
+  font-family: 'andika';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-transform: none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+html{
+  font-size: 80.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+body{
+	min-heignt:100vh;
+	width:100%;
+	
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:andika;}
+  header {
+  background-color: #FFF;
+  padding: 12px;
+  text-align: center;
+  font-size: 35px;
+  display:block
+  color:#FFF;}
+
+* {
+	box-sizing: border-box;
+	scrollbar-3d-light-color: #CCF;
+	nav-left: auto;
+	resize: inherit;
+	text-align: center;
+}
+
+.box {
+  margin:6px;
+  display:inline-block;
+  float:left;
+  width:430px;
+  padding: 10px;
+  height: 400px;
+  border:10px groove;
+  border-color:#FFF;  background: linear-gradient(120deg,#fab2ff 40%,#663399)}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.p2{font-family:andika; 
+		font-style:oblique; 
+		font-weight:lighter; 
+		font-size:18px;line-height:40px;  
+		text-decoration:blink; 
+		text-transform:none; 
+		text-align:center; 
+		text-indent:25px; letter-spacing:normal;}
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  border: 1px solid ;
+  padding: 10px;
+}
+
+footer{
+	background-color:#FFF;
+}
+footerContainer{
+	width:100%;
+	padding:70px 30px 20px;
+}
+.footerNav{
+	margin:5px 0;
+	justify-content:center;
+	background-color:#FFF;
+}
+.footerNav ul{
+	display:flex;
+	justify-content:center;
+	padding:30px;
+	
+}
+.footerNav ul li a{
+	color:black;
+	margin:20px;
+	text-decoration:none;
+	font-size:1.8em;
+	opacity:o.7;
+	transition:0.5s;
+	
+}
+.footerNav ul li a:hover{
+	opacity:1;
+}
+.footerBottom{
+	background-color:#C3F;
+	padding:20px;
+	text-align:center;
+}
+.footerBottom p{
+	color: black;
+}
+
